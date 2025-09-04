@@ -10,7 +10,7 @@ export const Header = () => {
       <div className="font-mono text-sm shrink-0 md:text-lg font-semibold text-foreground">
         <Link href="/">{"<dev />"}</Link>
       </div>
-      <nav className="hidden md:flex md:gap-6">
+      <nav className="hidden sm:flex gap-6">
         <NavLink navTo="#about" >About</NavLink>
         <NavLink navTo="#projects"  >Projects</NavLink>
         <NavLink navTo="#skills"  >Skills</NavLink>
