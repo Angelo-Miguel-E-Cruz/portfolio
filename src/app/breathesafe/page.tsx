@@ -30,12 +30,12 @@ export default function BreatheSafe() {
       </div>
 
       <Card className="border-accent bg-accent/50">
-        <CardContent>
+        <CardContent className="px-2 md:px-6">
           <div className="flex items-start gap-3">
             <AlertCircle className="h-5 w-5 text-foreground mt-0.5 flex-shrink-0" />
             <div>
               <h3 className="font-semibold text-card-foreground mb-2">Why This Project Isn&apos;t Live</h3>
-              <p className="text-muted-foreground leading-relaxed text-justify">
+              <p className="text-muted-foreground leading-relaxed text-justify text-sm">
                 This project was developed as part of my Undergraduate Thesis, which focused on particulate matter exposure.
                 The live site is hosted on Render and can be accessed here:&nbsp;
                 <span className="font-bold">

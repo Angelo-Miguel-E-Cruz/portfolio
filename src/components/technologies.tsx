@@ -7,8 +7,8 @@ interface StackInterface {
   icon: ReactNode
 }
 
-const mainIconClass = "h-20 w-20"
-const moreIconClass = "h-15 w-15"
+const mainIconClass = "h-15 w-15 md:h-20 md:w-20"
+const moreIconClass = "h-10 w-10 md:h-15 md:w-15"
 
 const mainStack: StackInterface[] = [
   { name: 'NextJs', icon: <RiNextjsFill className={mainIconClass} /> },

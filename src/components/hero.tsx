@@ -90,11 +90,11 @@ export function Hero() {
             className="rounded-full w-40 h-40 shrink-0"
           />
         </div>
-        <div className="max-w-4xl text-center">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-2 text-balance text-left">
+        <div className="max-w-4xl">
+          <h1 className="text-xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-2 text-balance text-left">
             Hi, I am Angelo Miguel Cruz
           </h1>
-          <p className="text-xl sm:text-2xl text-muted-foreground mb-4 text-pretty max-w-2xl text-left">
+          <p className="text-md sm:text-2xl text-muted-foreground mb-4 text-pretty max-w-2xl text-left">
             A passionate web developer crafting clean, functional web experiences with modern technologies.
           </p>
 

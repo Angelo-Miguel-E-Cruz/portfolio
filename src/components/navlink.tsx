@@ -8,7 +8,7 @@ interface LinkProps {
 
 export const NavLink = ({ navTo, children }: LinkProps) => {
   return (
-    <Link href={navTo} className="text-muted-foreground text-sm md:text-md hover:text-foreground transition-colors">
+    <Link href={navTo} className="text-muted-foreground text-xs md:text-md hover:text-foreground transition-colors">
       {children}
     </Link>
   )

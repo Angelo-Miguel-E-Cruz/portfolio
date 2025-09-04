@@ -6,11 +6,11 @@ import { Badge } from "lucide-react"
 
 export const Header = () => {
   return (
-    <div className="flex h-16 items-center justify-between">
-      <div className="font-mono text-sm md:text-lg font-semibold text-foreground">
+    <div className="flex h-16 items-center justify-between gap-1">
+      <div className="font-mono text-sm shrink-0 md:text-lg font-semibold text-foreground">
         <Link href="/">{"<dev />"}</Link>
       </div>
-      <nav className="flex gap-6">
+      <nav className="hidden md:flex md:gap-6">
         <NavLink navTo="#about" >About</NavLink>
         <NavLink navTo="#projects"  >Projects</NavLink>
         <NavLink navTo="#skills"  >Skills</NavLink>
