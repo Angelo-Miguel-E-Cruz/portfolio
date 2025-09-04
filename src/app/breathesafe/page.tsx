@@ -34,7 +34,7 @@ export default function BreatheSafe() {
           <div className="flex items-start gap-3">
             <AlertCircle className="h-5 w-5 text-foreground mt-0.5 flex-shrink-0" />
             <div>
-              <h3 className="font-semibold text-card-foreground mb-2">Why This Project Isn't Live</h3>
+              <h3 className="font-semibold text-card-foreground mb-2">Why This Project Isn&apos;t Live</h3>
               <p className="text-muted-foreground leading-relaxed text-justify">
                 This project was developed as part of my Undergraduate Thesis, which focused on particulate matter exposure.
                 The live site is hosted on Render and can be accessed here:&nbsp;
@@ -44,7 +44,7 @@ export default function BreatheSafe() {
                   </a>
                 </span>
                 <br /><br />
-                During development, my team and I opted to use Render's free database hosting service due to budget limitations as students. However,
+                During development, my team and I opted to use Render&apos;s free database hosting service due to budget limitations as students. However,
                 this free plan only lasted for 30 days, which means the database is no longer active, and logging into the system is currently not possible
                 unless the database is re-hosted.
                 <br /><br />
@@ -143,8 +143,8 @@ export default function BreatheSafe() {
               <CardContent className="p-4">
                 <h4 className="font-medium text-card-foreground">Account Management</h4>
                 <p className="text-sm text-muted-foreground">
-                  Allows the admin to manage their employee's personal data as well as see the latest sensor readings.
-                  Admins can also toggle which employee's data they wish to see.
+                  Allows the admin to manage their employee&apos;s personal data as well as see the latest sensor readings.
+                  Admins can also toggle which employee&apos;s data they wish to see.
                 </p>
               </CardContent>
             </Card>
@@ -170,7 +170,7 @@ export default function BreatheSafe() {
                 <h4 className="font-medium text-card-foreground">Main Dashboard</h4>
                 <p className="text-sm text-muted-foreground">
                   Main dashboard page where users can see their real-time and historical sensor readings. <br />
-                  Admins can also see their employee's readings here.
+                  Admins can also see their employee&apos;s readings here.
                 </p>
               </CardContent>
             </Card>
