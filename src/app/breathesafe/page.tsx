@@ -65,8 +65,8 @@ export default function BreatheSafe() {
       <div className="grid md:grid-cols-2 gap-8">
         <div>
           <p className="text-muted-foreground leading-relaxed mb-6">
-            A comprehensive dashboard built using NodeJs, React, TailwindCSS, and DaisyUI for the frontend and
-            Express and PostgreSQL for the backend. It features&nbsp;
+            A comprehensive dashboard built using React, TailwindCSS, and DaisyUI for the frontend and NodeJs,
+            Express, and PostgreSQL for the backend. It features&nbsp;
             <span className="font-semibold">real-time data readings from the accompanying air monitoring device</span>,&nbsp;
             <span className="font-semibold">automatic conversion from concentration to AQI</span>, and&nbsp;
             <span className="font-semibold">helpful graphics to help users determine the air quality level</span>.
